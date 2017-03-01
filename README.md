@@ -9,6 +9,7 @@ back to png-format by some script. If an url has been queried then the base64 st
 be returned immediately from the DB, otherwise the phantoms script will be run. 
 
 FOR THE FUTURE:
-more error handling
-concurrency
-message queues
+
+* more error handling
+* concurrency instead of iterative proccesses
+* message queues, for example exchange async parts
